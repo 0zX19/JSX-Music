@@ -1,0 +1,6 @@
+##### No Premium Event #####
+
+# No premium sending message
+premium_author: "Only Premium!"
+premium_desc: "*You need to be a premium member to use this command.*\n\n# Price List\n\n:flag_us:\n$2.00 **daily**\n$3.00 **weekly**\n$4.50 **monthly**\n$15.00 **yearly**\n\n:flag_id:\nIDR 15,000 **daily**\nIDR 25,000 **weekly**\nIDR 35,00 **monthly**\nIDR 90,000 **yearly**\n\nFor further questions or interests, please contact the BOT owner,  <@795708124442918913>. or type this command: h,order."
+premium_error: "Something went wrong, try again later."

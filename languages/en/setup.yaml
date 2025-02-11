@@ -1,0 +1,25 @@
+##### Setup command #####
+setup_topic: "<:pause:1148023634175197185> *Pause/Resume the song.*\n<:back:1148023681679904769> *Previous the song.*\n<:stop:1148040502218858646> *Stop the song.*\n<:skip:1148023458853298276> *Skip the song.*\n<:loop:1148052639486062644> *Loop/Unloop the song.*"
+setup_msg: "✅ Successfully setupped the Music System in: %{channel}\n```Warning: I disable all commands for perfermance! if you want to use normal please delete haruka channel```"
+setup_enable: "*`Already have setup channel song request can't use this command.`*"
+
+##### Setup Handler #####
+setup_queuemsg: "**Queue list:**\n**``[Empty]``**"
+
+setup_playembed_author: "No song playing currently."
+setup_nowplay: "Now playing"
+setup_songpause: "Song pause"
+setup_playembed_image: "https://media.discordapp.net/attachments/1194872091112112229/1204042536239505468/Haruka_background.png?ex=65d34afe&is=65c0d5fe&hm=7b9140a073327aa5e36238f5a526f4ab960a8a51140b3a4a087c385e86a41f21&=&format=webp&quality=lossless&width=832&height=468"
+setup_playembed_desc: "**HOW TO USE THE BOT:**\nType your favorite song title with the artist name or simply by copy-paste the song/video URL on the text box"
+setup_playembed_footer: "I support Youtube, Spotify, Soundcloud and direct MP3 Links!"
+
+##### Setup Update Handler #####
+
+setup_author: "Starting playing"
+setup_author_icon: "https://media.discordapp.net/attachments/892640940286681088/988565003336560660/5LYzTBVoS196gvYvw3zjwL_nk71Z0lmepi0f51OM5CE.png?width=1024&height=417"
+setup_desc: "[%{title}](%{url}) `[%{duration}]` • %{request}"
+setup_footer: "Volume: %{volume}%"
+
+setup_content: "**Queue list:**"
+setup_content_queue: "**%{index}**, **%{title}**"
+setup_content_empty: "**``[Empty]``**"
