@@ -1,4 +1,4 @@
-const MainClient = require("./haruka.js");
+const MainClient = require("./jsx.js");
 const client = new MainClient();
 
 client.connect()
